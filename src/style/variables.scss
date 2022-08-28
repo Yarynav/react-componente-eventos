@@ -1,0 +1,45 @@
+@mixin grid {
+  display: grid;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: url(jack-b-fewhfXbCUzI-unsplash.jpg);
+  min-height: 100vh;
+  background-size: cover;
+}
+.left {
+  background: linear-gradient(#fe4bec9e, #0000ff69);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+}
+.right {
+}
+.titulo {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+}
+.usuario {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+.input {
+  border-radius: 5px;
+  background: none;
+  border: 1px solid white;
+  padding: 20px;
+  box-shadow: none;
+  font-size: 1.2rem;
+}
+.boton {
+  border-radius: 25px;
+  border: 1px solid rgb(255, 255, 255);
+  text-decoration: none;
+  padding: 10px 50px;
+  background-color: #fe4bec9e;
+}
