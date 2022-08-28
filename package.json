@@ -1,11 +1,14 @@
 {
+  "homepage": "https://github.com/Yarynav/react-componente-eventos",
   "name": "ejercicio-1",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build --base=/react-componente-eventos/",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -18,6 +21,7 @@
     "@types/react": "^18.0.17",
     "@types/react-dom": "^18.0.6",
     "@vitejs/plugin-react": "^2.0.1",
+    "gh-pages": "^4.0.0",
     "sass": "^1.54.5",
     "vite": "^3.0.7"
   }
